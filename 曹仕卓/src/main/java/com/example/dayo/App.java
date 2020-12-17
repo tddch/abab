@@ -9,7 +9,7 @@ public class App extends Application {
 
     public static DaoSession daoSession;
 
-    @Override
+    @Override//
     public void onCreate() {
         super.onCreate();
         DaoMaster.DevOpenHelper person = new DaoMaster.DevOpenHelper(this, "person");
